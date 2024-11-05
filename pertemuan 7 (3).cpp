@@ -8,9 +8,9 @@ void divide(int a, int b);
 int main() {
     int num1, num2;
     // Meminta input dari pengguna
-    cout << "Input number : ";
+    cout << "Masukan angka : ";
     cin >> num1;
-    cout << "Input number : ";
+    cout << "Masukan angka : ";
     cin >> num2;
     // Calling the addition function
     int sum = add(num1, num2);
@@ -43,6 +43,6 @@ void divide(int a, int b) {
         float result = static_cast<float>(a) / b;
         cout << "Pembagian: " << result << endl;
     } else {
-        cout << "Error: Cannot be declared" << endl;
+        cout << "Error: Tidak dapat di deklarasikan" << endl;
     }
 }
